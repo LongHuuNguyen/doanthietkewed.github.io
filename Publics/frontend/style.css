@@ -1,0 +1,89 @@
+
+  body {
+    
+    position: relative;
+    font-family:Arial, Helvetica,  sans-serif;
+    color:#000000;
+     background-image: url(https://images.adsttc.com/media/images/59c3/a09f/b22e/38b8/5f00/0014/slideshow/07_%C2%A9ASV_wu_14_174.jpg?1505992855);
+     background-size: cover;
+  }
+
+.container {
+   background-color: rgba(255, 184, 224, 0.6); 
+   text-align: center;
+ 
+  }
+.menu ul li {
+ line-height: 2.9em;
+ height: 2.9em;
+}
+.menu li a {
+ display: block;
+ color: green;
+ padding: 0 1em;
+background-color: rgba(173, 153, 123, 0.5); 
+ border-bottom: 0.5px solid #333;
+}
+.menu li:hover {
+ 
+ background-color: red;
+}
+.menu {
+  
+   position:absolute;
+  height: 50%;
+   width: 150px;
+  top:-15px;
+ right:0;
+  
+}
+button{
+  color:#FFFFFF;
+  background:linear-gradient(180deg,#A910F3,#FF3BD2);
+  Padding:10px;
+    border-radius: 5px;
+}
+.row .col img {
+  display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: 340px;
+    height: 200px;
+}
+.row {
+  background-color: rgba(173, 153, 123, 0.7); 
+ overflow: hidden;
+ margin: 0em auto;
+}
+.row .col {
+ float: left;
+ width: 24%;
+ margin-right: 1%;
+}
+.row .col:last-child {
+ float: right;
+ margin-right: 1;
+}
+
+
+#footer {
+ font-size: 85%;
+ border-top: 5px double;
+ color: #838313;
+ padding: 1em 3em;
+}
+.menu ul {
+  
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+.content{
+  
+  color:red;
+  font-size:40px;
+  font-family:Verdana;
+  font-weight:bold;
+  text-shadow: 3px 3px black;
+}
